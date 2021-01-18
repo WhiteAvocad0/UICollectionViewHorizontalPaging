@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SampleCollectionViewCell" customModule="UICollectionViewHorizontalPaging" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="350"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="350"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zoe-em-HDD">
+                        <rect key="frame" x="0.0" y="270" width="200" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju5-pQ-2eW">
+                                <rect key="frame" x="11" y="8" width="176" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Dlh-Nb-6eG"/>
+                                    <constraint firstAttribute="width" constant="176" id="JsS-89-huc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ju5-pQ-2eW" firstAttribute="top" secondItem="Zoe-em-HDD" secondAttribute="top" constant="8" id="8PK-7w-MLT"/>
+                            <constraint firstAttribute="width" constant="200" id="bHH-xx-GQp"/>
+                            <constraint firstAttribute="height" constant="80" id="cn4-kB-Qdg"/>
+                            <constraint firstItem="ju5-pQ-2eW" firstAttribute="leading" secondItem="Zoe-em-HDD" secondAttribute="leading" constant="11" id="eWg-c4-UMZ"/>
+                            <constraint firstAttribute="trailing" secondItem="ju5-pQ-2eW" secondAttribute="trailing" constant="13" id="gSV-ue-pa6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" systemColor="systemGray2Color"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Zoe-em-HDD" secondAttribute="trailing" id="DzI-tn-XBn"/>
+                <constraint firstAttribute="bottom" secondItem="Zoe-em-HDD" secondAttribute="bottom" id="Qn8-3R-4GJ"/>
+                <constraint firstItem="Zoe-em-HDD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VgR-PE-0WR"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="15"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="title" destination="ju5-pQ-2eW" id="t2M-11-6RE"/>
+            </connections>
+            <point key="canvasLocation" x="111.59420289855073" y="108.48214285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

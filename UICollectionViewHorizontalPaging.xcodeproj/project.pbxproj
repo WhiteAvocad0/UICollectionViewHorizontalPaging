@@ -13,8 +13,6 @@
 		3FA17B8F25B57BB100991F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA17B8D25B57BB100991F3F /* Main.storyboard */; };
 		3FA17B9125B57BB400991F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA17B9025B57BB400991F3F /* Assets.xcassets */; };
 		3FA17B9425B57BB400991F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA17B9225B57BB400991F3F /* LaunchScreen.storyboard */; };
-		3FA17B9F25B57BB400991F3F /* UICollectionViewHorizontalPagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17B9E25B57BB400991F3F /* UICollectionViewHorizontalPagingTests.swift */; };
-		3FA17BAA25B57BB400991F3F /* UICollectionViewHorizontalPagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17BA925B57BB400991F3F /* UICollectionViewHorizontalPagingUITests.swift */; };
 		3FA17BC025B57D3600991F3F /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17BBE25B57D3600991F3F /* SampleCollectionViewCell.swift */; };
 		3FA17BC125B57D3600991F3F /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA17BBF25B57D3600991F3F /* SampleCollectionViewCell.xib */; };
 		3FA17BC625B57ED600991F3F /* Round Corner Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA17BC525B57ED600991F3F /* Round Corner Extension.swift */; };
@@ -47,11 +45,7 @@
 		3FA17B9325B57BB400991F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA17B9525B57BB400991F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA17B9A25B57BB400991F3F /* UICollectionViewHorizontalPagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewHorizontalPagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA17B9E25B57BB400991F3F /* UICollectionViewHorizontalPagingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewHorizontalPagingTests.swift; sourceTree = "<group>"; };
-		3FA17BA025B57BB400991F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA17BA525B57BB400991F3F /* UICollectionViewHorizontalPagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewHorizontalPagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FA17BA925B57BB400991F3F /* UICollectionViewHorizontalPagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewHorizontalPagingUITests.swift; sourceTree = "<group>"; };
-		3FA17BAB25B57BB400991F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA17BBE25B57D3600991F3F /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		3FA17BBF25B57D3600991F3F /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
 		3FA17BC525B57ED600991F3F /* Round Corner Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Round Corner Extension.swift"; sourceTree = "<group>"; };
@@ -86,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				3FA17B8625B57BB100991F3F /* UICollectionViewHorizontalPaging */,
-				3FA17B9D25B57BB400991F3F /* UICollectionViewHorizontalPagingTests */,
-				3FA17BA825B57BB400991F3F /* UICollectionViewHorizontalPagingUITests */,
 				3FA17B8525B57BB100991F3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,24 +108,6 @@
 				3FA17BC525B57ED600991F3F /* Round Corner Extension.swift */,
 			);
 			path = UICollectionViewHorizontalPaging;
-			sourceTree = "<group>";
-		};
-		3FA17B9D25B57BB400991F3F /* UICollectionViewHorizontalPagingTests */ = {
-			isa = PBXGroup;
-			children = (
-				3FA17B9E25B57BB400991F3F /* UICollectionViewHorizontalPagingTests.swift */,
-				3FA17BA025B57BB400991F3F /* Info.plist */,
-			);
-			path = UICollectionViewHorizontalPagingTests;
-			sourceTree = "<group>";
-		};
-		3FA17BA825B57BB400991F3F /* UICollectionViewHorizontalPagingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3FA17BA925B57BB400991F3F /* UICollectionViewHorizontalPagingUITests.swift */,
-				3FA17BAB25B57BB400991F3F /* Info.plist */,
-			);
-			path = UICollectionViewHorizontalPagingUITests;
 			sourceTree = "<group>";
 		};
 		3FA17BBD25B57D2400991F3F /* Collection Cell */ = {
@@ -288,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA17B9F25B57BB400991F3F /* UICollectionViewHorizontalPagingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA17BAA25B57BB400991F3F /* UICollectionViewHorizontalPagingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
